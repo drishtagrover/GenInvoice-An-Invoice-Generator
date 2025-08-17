@@ -35,17 +35,13 @@ It features a clean, user-friendly interface, customizable templates, secure aut
 ---
 
 ## 📸 Screenshots
-
-
  <img width="1149" height="5124" alt="localhost_5173_" src="https://github.com/user-attachments/assets/6bdb688d-d818-44e3-894a-1dba8fda6ce6" />
-
 
 - **Invoice Creation Form**
   <img width="1149" height="4424" alt="localhost_5173_generate" src="https://github.com/user-attachments/assets/3a0dd0f2-ea5c-48b5-817a-a538a1c0f16a" />
 
 - **Dashboard View**  
   <img width="1879" height="728" alt="Screenshot 2025-08-17 131249" src="https://github.com/user-attachments/assets/9fee03e7-28ed-4015-b352-d1e78208f857" />
-
 
 - **Invoice Preview & Templates**
 
