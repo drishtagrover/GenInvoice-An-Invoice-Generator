@@ -1,12 +1,61 @@
-# React + Vite
+# GenInvoice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GenInvoice is a modern web application for generating, managing, and sending professional invoices with ease.  
+It features a clean, user-friendly interface, customizable templates, secure authentication, and seamless email delivery, making it ideal for freelancers, small businesses, and professionals.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Invoice Creation** – Intuitive form to enter company, billing, shipping, and item details.  
+- **Template Selection** – Choose from multiple professionally designed invoice templates.  
+- **Live Preview** – Instantly preview invoices before saving or sending.  
+- **Invoice Management** – Dashboard to view, edit, and delete invoices.  
+- **Email Delivery** – Send invoices as PDF attachments directly to clients.  
+- **Authentication** – Secure login and user management with Clerk.  
+- **Cloud Storage** – Upload and store company logos and invoice thumbnails.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **React (with Vite)** – Fast and modern UI development  
+- **Bootstrap** – Responsive styling  
+- **Clerk** – Authentication and user management  
+- **jsPDF & html2canvas** – PDF generation and export  
+- **Axios** – API requests  
+
+### Backend
+- **Spring Boot** – REST API backend  
+- **MongoDB** – NoSQL database for data storage  
+- **Spring Security with JWT** – Secure authentication (Clerk integration)  
+- **JavaMail** – Email sending with PDF attachments  
+
+---
+
+## 📸 Screenshots
+
+> _(Add your screenshots here)_  
+
+- **Invoice Creation Form**  
+- **Dashboard View**  
+- **Invoice Preview & Templates**  
+
+---
+
+## ⚡ Getting Started
+
+Follow these steps to run the project locally:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/GenInvoice.git
+cd GenInvoice
+
+
+### 2. Frontend Setup
+```bash
+cd frontend
+npm install
+npm run dev
