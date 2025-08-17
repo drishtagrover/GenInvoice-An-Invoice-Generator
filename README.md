@@ -72,7 +72,7 @@ npm run dev
 Frontend will start at: http://localhost:5173/
 
 ```
-###3. Backend Setup
+### 3. Backend Setup
    ```bash
 cd backend
 ./mvnw spring-boot:run
@@ -80,14 +80,14 @@ cd backend
 
 Backend will start at: http://localhost:8080/
 ```
-###4. Environment Variables
+### 4. Environment Variables
 
 Create a .env file inside frontend/:
 ```bash
 
 VITE_CLERK_FRONTEND_API=<your-clerk-frontend-api>
 ```
-###5.Create an application.properties file inside backend/src/main/resources/:
+### 5.Create an application.properties file inside backend/src/main/resources/:
 ```bash
 spring.data.mongodb.uri=<your-mongodb-uri>
 clerk.webhook.secret=<your-clerk-secret>
